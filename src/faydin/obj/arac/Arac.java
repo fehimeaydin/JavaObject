@@ -1,4 +1,4 @@
-package faydin.obj;
+package faydin.obj.arac;
 
 public class Arac {
 	
