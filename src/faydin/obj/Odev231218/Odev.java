@@ -12,7 +12,7 @@ public class Odev {
 	public Odev() {
 		
 		//validUsernameRegEx();
-		javaMethodOverriding();
+		//javaMethodOverridingSports();
 		//javaInheritanceI();
 		//javaInheritanceII();
 		
@@ -62,17 +62,27 @@ public class Odev {
 	}
 	
 	
-	private void javaMethodOverriding() {
-		
-		
-		
-	}
+	//public String javaMethodOverridingSports() {
+		public String getName() {
+	        return "Generic Sports";
+	    }
+		public void getNumberOfTeamMembers() {
+		        System.out.println("Each team has n players in " + getName());
+		 }
+		   
+	//}
 	
-	private void javaInheritanceI() {
+		
+	
+	//private void javaInheritanceI() {
+		
+		public void walk(){
+		        System.out.println("I am walking");
+		    }
+		
+	//}
 		
 		
-		
-	}
 	
 	private void javaInheritanceII() {
 	
