@@ -1,5 +1,7 @@
 package faydin.obj.Odev231218;
 
+import faydin.obj.insan.Insan;
+
 public class Runner {
 
 	public static void main(String[] args) {
@@ -16,20 +18,47 @@ public class Runner {
 	     *****************************************************/
 	    
 	     
-	     
-	     
-	     
+		
 
-		/**************javaInheritanceI **************/
+		/**************javaInheritanceI **************
 		 Bird bird = new Bird();
 		 bird.walk();
 		 bird.fly();
 		 bird.sing();
-		 /********************************************/
+		 ********************************************/
+		 
+		
 		     
+		 /**************javaInheritanceII **************
+		 Adder.java
+		
+		 **********************************************/
 		     
-	     
-	     
+		 /**************Soyagaci **************/
+		Odev ben = new Odev();
+		ben.adi = "Fehime";
+		ben.soyadi = "Aydın";
+		
+		ben.anne = new Odev();
+		ben.anne.adi= "Zahide";
+		ben.anne.soyadi= "Can";
+		
+		ben.baba = new Odev();
+		ben.baba.adi= "Metin";
+		ben.baba.soyadi= "Can";
+		
+		
+		ben.anne.anne = new Odev();
+		ben.anne.anne.adi= "xxxyyy";
+		
+		
+		System.out.println(ben.adi  + " " +ben.soyadi);
+
+		System.out.println(ben.anne.adi); 
+		System.out.println(ben.baba.adi); 
+		
+		 /*************************************/
+		  
 	     
 	}
 

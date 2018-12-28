@@ -4,6 +4,8 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import faydin.obj.insan.Insan;
+
 
 public class Odev {
 	
@@ -15,6 +17,7 @@ public class Odev {
 		//javaMethodOverridingSports();
 		//javaInheritanceI();
 		//javaInheritanceII();
+		//soyAgaci();
 		
 	}
 	
@@ -84,13 +87,23 @@ public class Odev {
 		
 		
 	
-	private void javaInheritanceII() {
+	//private void javaInheritanceII() {
+		
+		public int add (int a, int b) {
+		        return a + b;
+		}
 	
 	
 	
-	}
+	//}
 
-	
+	/*Soy aðacý*/
+	public String  adi;
+	public String  soyadi;
+	public Odev  anne;
+	public Odev  baba;
+				
+		
 	
 	
 }
