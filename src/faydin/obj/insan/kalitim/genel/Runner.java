@@ -1,4 +1,5 @@
 package faydin.obj.insan.kalitim.genel;
+//29.12.2018 static tanımı
 
 public class Runner {
 
