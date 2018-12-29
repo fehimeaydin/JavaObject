@@ -34,7 +34,7 @@ public class Runner {
 		
 		 **********************************************/
 		     
-		 /**************Soyagaci **************/
+		 /**************Soyagaci **************
 		Odev ben = new Odev();
 		ben.adi = "Fehime";
 		ben.soyadi = "Aydýn";
@@ -84,8 +84,51 @@ public class Runner {
 		System.out.println("   " + ben.anne.anne.adi + "\t" +ben.anne.baba.adi +  "\t\t "+   ben.baba.anne.adi + "\t\t" + ben.baba.baba.adi); 
 		System.out.println( ben.anne.anne.anne.adi + "  " +ben.anne.anne.baba.adi +  "  "+ ben.anne.baba.anne.adi + "  " +ben.anne.baba.baba.adi + "  " + ben.baba.anne.anne.adi + "  " +ben.baba.anne.baba.adi + "  " + ben.baba.baba.anne.adi + "  "+ ben.baba.baba.baba.adi); 
 		
-		 /*************************************/
+		 *************************************/
 		  
+		
+		
+		/*****************Hastalik********************/
+		Hastalik kizamik = new Hastalik();
+		kizamik.adi = "Kizamik";
+		kizamik.bulasiciOlmaDurumu = true;
+		kizamik.belirtileri = "ateþ, titreme, öksürük,kýzarýklýk";
+		
+		Hastalik grip = new Hastalik();
+		grip.adi = "Üst Solunum Yolu Enfeksiyonu";
+		grip.bulasiciOlmaDurumu = true;
+		grip.belirtileri = "Boðaz aðrýsý, Burun týkanýklýðý, öksürük";
+		
+		Hastalik zatürrre = new Hastalik();
+		zatürrre.adi = "Zatürre";
+		zatürrre.bulasiciOlmaDurumu = true;
+		zatürrre.belirtileri = "ateþ, öksürük, göðüs aðrýsý,bulantý, halsizlik";
+		
+		Hastalik astim = new Hastalik();
+		astim.adi = "Astim";
+		astim.bulasiciOlmaDurumu = false;
+		astim.belirtileri = "Öksürük, Hýrýltý, nefes darlýðý";
+		
+		Hastalik seker = new Hastalik();
+		seker.adi = "Þeker";
+		seker.bulasiciOlmaDurumu = false;
+		seker.belirtileri = "Aðýz kuruluðu, kuru cilt, elde ve ayakta uyuþma";
+		
+		Hastalik obezzite = new Hastalik();
+		obezzite.adi = "Obezite";
+		obezzite.bulasiciOlmaDurumu = false;
+		obezzite.belirtileri = "Terleme, horlama, nefes darlýðý, eklemlerde aðrý";
+		
+		
+		
+		System.out.println("Hastaliðin adý: " + kizamik.adi + " Bulaþici olma durumu: " + kizamik.bulasiciOlmaDurumu+ " Blirtileri:" + kizamik.belirtileri);
+		System.out.println("Hastaliðin adý: " + grip.adi+ " Bulaþici olma durumu: " + grip.bulasiciOlmaDurumu+ " Blirtileri:" + grip.belirtileri);
+		System.out.println("Hastaliðin adý: " + zatürrre.adi + " Bulaþici olma durumu: " +zatürrre.bulasiciOlmaDurumu  + " Blirtileri:" + zatürrre.belirtileri);
+		System.out.println("Hastaliðin adý: " + astim.adi + " Bulaþici olma durumu: " + astim.bulasiciOlmaDurumu+ " Blirtileri:" + astim.belirtileri);
+		System.out.println("Hastaliðin adý: " + seker.adi+ " Bulaþici olma durumu: " + seker.bulasiciOlmaDurumu+ " Blirtileri:" + seker.belirtileri);
+		System.out.println("Hastaliðin adý: " + obezzite.adi+ " Bulaþici olma durumu: " + obezzite.bulasiciOlmaDurumu+ " Blirtileri:" + obezzite.belirtileri);
+		
+		/**************************************/
 	     
 	}
 
