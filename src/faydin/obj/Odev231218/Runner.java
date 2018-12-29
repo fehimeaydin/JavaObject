@@ -88,7 +88,7 @@ public class Runner {
 		  
 		
 		
-		/*****************Hastalik********************/
+		/*****************Hastalik********************
 		Hastalik kizamik = new Hastalik();
 		kizamik.adi = "Kizamik";
 		kizamik.bulasiciOlmaDurumu = true;
@@ -128,7 +128,7 @@ public class Runner {
 		System.out.println("Hastaliðin adý: " + seker.adi+ " Bulaþici olma durumu: " + seker.bulasiciOlmaDurumu+ " Blirtileri:" + seker.belirtileri);
 		System.out.println("Hastaliðin adý: " + obezzite.adi+ " Bulaþici olma durumu: " + obezzite.bulasiciOlmaDurumu+ " Blirtileri:" + obezzite.belirtileri);
 		
-		/**************************************/
+		**************************************/
 	     
 	}
 

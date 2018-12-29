@@ -13,7 +13,7 @@ public class Odev {
 	
 	public Odev() {
 		
-		//validUsernameRegEx();
+		validUsernameRegEx();
 		//javaMethodOverridingSports();
 		//javaInheritanceI();
 		//javaInheritanceII();
